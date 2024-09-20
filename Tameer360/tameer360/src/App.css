@@ -1,0 +1,14 @@
+/* App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Make sure the app takes up the full height of the viewport */
+}
+
+.HomeScreen {
+  flex-grow: 1; /* Allow the HomeScreen to grow and fill the remaining space */
+}
+
+.Footer {
+  flex-shrink: 0; /* Prevent the footer from shrinking */
+}

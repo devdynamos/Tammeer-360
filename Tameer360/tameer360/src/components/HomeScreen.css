@@ -1,0 +1,92 @@
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.background-image {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blocks-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+  font-size: 15px;
+
+  background-color: #013F51; /* Change background color to orange */
+  color: white; /* Change text color to green */
+
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.block-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+.block-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: white;
+}
+
+
+
+.block-description {
+  font-size: 15px;
+  color: white;
+}
+
+.space {
+  width: 20px; /* Space between blocks */
+}
+
+/* HomeScreen.css */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading {
+  color: yellow; /* Change color as needed */
+  margin-top: 10px; /* Adjust margin-bottom as needed */
+  font-family: Montesserat;
+  font-style: 28px
+}
+
+
+
+
+/* FontAwesome Import for Icons */
+@import '@fortawesome/fontawesome-free/css/all.css';

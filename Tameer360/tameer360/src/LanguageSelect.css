@@ -1,0 +1,21 @@
+.language-select {
+    padding: 5px;
+    border: none;
+    background-color: #232f3e;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Montesserat;
+  }
+  
+  .language-option {
+    display: flex;
+    align-items: center;
+  }
+  
+  .language-flag {
+    width: 20px;
+    height: 15px;
+    margin-right: 5px;
+  }
+  

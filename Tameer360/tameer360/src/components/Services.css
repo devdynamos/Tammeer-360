@@ -1,0 +1,84 @@
+/* Services.css */
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the container horizontally */
+  margin: 20px auto;
+}
+
+.services-heading {
+  color: #013F51; /* Heading color */
+  text-align: left; /* Align the heading text to the left */
+  margin-bottom: 20px; /* Space below the heading */
+  margin-left: -670px; /* Add left margin for spacing */
+  font-family: Montesserat;
+  font-size: 28px;
+}
+
+.arrow-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: black; /* Set arrow color */
+}
+
+.arrow:focus {
+  outline: none;
+}
+
+.left-arrow {
+  margin-right: auto; /* Push the left arrow to the left */
+}
+
+.right-arrow {
+  margin-left: auto; /* Push the right arrow to the right */
+}
+
+.services {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  margin: 0 10px;
+}
+
+.service-container {
+  display: flex;
+}
+
+.service {
+  width: 200px;
+  height: 200px;
+  background-color: orange; /* Set block background color to orange */
+  margin-right: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-header {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.service-icon {
+  font-size: 24px;
+  margin-right: 5px;
+  color: white; /* Set icon/text color to green */
+}
+
+
+
+.service-description {
+  font-size: 15px;
+  color: white; /* Set icon/text color to green */
+}

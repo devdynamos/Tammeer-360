@@ -1,0 +1,145 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: linear-gradient(to bottom, #333, #444);
+  background-size: 100% 300px;
+  background-position: 0% 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.hero-text {
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Main Content */
+.main-content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-family: Montessori;
+  color: #013F51;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form-group select,
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 5px;
+}
+
+.form-group h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: orange;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: orange;
+
+}
+
+/* Additional styles for radio buttons in a row */
+.radio-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.radio-container .radio-group {
+  flex: 1 1 calc(50% - 20px);
+}
+
+.radio-group input[type="radio"] + label {
+  margin-left: 10px;
+}
+
+.hero-text h1 {
+  font-size: 28px;
+  font-family: Montessori;
+}
+
+.hero-text p {
+  font-size: 15px;
+  font-family: Montessori;
+}
+
+.plotsize {
+  font-size: 28px;
+  font-family: Montessori;
+}

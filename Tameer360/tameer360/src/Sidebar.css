@@ -1,0 +1,58 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -550px; /* Sidebar initially hidden */
+  width: 250px;
+  height: 100%;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  overflow-y: auto; /* Ensure content is scrollable */
+  transition: left 0.3s ease;
+  z-index: 1002; 
+  padding: 20px; 
+}
+
+.sidebar.open {
+  left: 0; /* Slide in from the left */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none; /* Initially hidden */
+  z-index: 1000; 
+}
+
+.overlay.open {
+  display: block; /* Show overlay when sidebar is open */
+}
+
+.close-btn {
+  font-size: 30px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+h2, p {
+  margin: 15px 0;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: Montesserat;
+}
+
+p {
+  font-size: 15px;
+  font-family: Montesserat;
+}

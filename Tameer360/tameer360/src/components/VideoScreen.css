@@ -1,0 +1,48 @@
+.video-wrapper {
+    width: 85%; /* Width of the wrapper is 85% of the parent */
+    margin: 0 auto; /* Center the wrapper horizontally */
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .video-heading {
+    color: #013F51; /* Heading color */
+    margin-left: 20px; /* Left margin for spacing */
+    text-align: left; /* Align the heading text to the left */
+    margin-bottom: 10px; /* Space below the heading */
+    font-size: 28px;
+    font-family: Montesserat;
+  }
+
+  .header__logo img {
+    width: 100px;
+  }
+  
+
+
+  .video-container {
+    width: 95%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(254, 242, 242, 0.1);
+    text-align: center;
+  }
+  
+  .video-player {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    border: none; /* Remove any default border */
+    outline: none; /* Remove any outline */
+    display: block; /* Ensure the video is a block element */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+  }
+  
+  .video-title {
+    font-size: 1.2em;
+    color: #333;
+  }
+  

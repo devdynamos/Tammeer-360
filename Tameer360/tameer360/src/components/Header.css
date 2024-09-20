@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #013F51;
+  padding: 10px;
+  color: white;
+}
+
+.header__logo img {
+  width: 100px;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.header__searchInput {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-family: Montesserat;
+}
+
+.header__searchIcon {
+  padding: 10px;
+  background: #febd69;
+  cursor: pointer;
+}
+
+.header__language {
+  margin-left: 10px;
+}
+
+.header__login,
+.header__cart,
+.header__sidebar {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+  font-family: Montesserat;
+  font-size: 15px;
+}
+
+.header__loginIcon,
+.header__cartIcon,
+.header__sidebarIcon {
+  margin-right: 5px;
+}
